@@ -1,0 +1,443 @@
+body{
+    font-weight: 500;
+    font-family: 'Microsoft Yahei';
+    font-size:14px!important;
+    color: #000;
+}
+.header .logo {
+    width: 180px;
+    height: 30px;
+    text-indent: 40px;
+    line-height: 30px;
+    border-radius: 6px;
+    margin: 7px 28px 7px 0;
+    float: left;
+    color: #fff;
+    font-size:16px;
+    background: url("../image/inner-logo.png") no-repeat;
+    background-size: 17% 100%;
+    cursor: pointer;
+}
+
+/*复写antd样式*/
+/*登陆*/
+.signFormBox .login-form {
+    min-width: 200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.signFormBox  .login-form-button {
+    width: 100%;
+    height:44px!important;
+    border-radius: 0!important;
+}
+.signFormBox .ant-input{
+    border:none;
+    border-radius: 0!important;
+}
+.signFormBox .has-error .ant-input{
+    border:none;
+}
+.signFormBox .ant-form-explain{
+    color: #dedede!important;
+}
+.signFormBox  .has-error .ant-input-prefix{
+    color: rgba(0,0,0,.65);
+}
+.signFormBox .ant-input{
+    height:40px!important;
+    line-height: 40px!important;
+}
+/*头部*/
+.header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+.header .ant-menu-dark.ant-menu-horizontal{
+    background-color: #2E3847!important;
+    border:0;
+}
+.header .productNav>.ant-menu-sub{
+    width: 600px;
+    background: #000!important;
+    position: absolute!important;
+    top: 39px!important;
+    border: 0!important;
+    border-radius: 0!important;
+    padding-bottom: 30px;
+}
+.header .ant-menu-submenu-active,.header .ant-menu-item:hover,.header .ant-menu-submenu-title:hover{
+    background: #000!important;
+    color: #fff!important;
+}
+.productNav .ant-menu-item-group{
+    float: left;
+    width: 300px;
+    height:150px;
+}
+.productNav .ant-menu-item:hover{
+    background-color: #2E3847!important;
+    color: #fff!important;
+}
+.productNav .ant-menu-item-group-title{
+    margin:5px 5px 0px 5px;
+    color: #ababab;
+    font-size: 14px!important;
+}
+.productNav .ant-menu-item-divider{
+    width: 50%;
+    margin: 0px 0px 5px 20px;
+    border-bottom:1px solid #636363;
+}
+.productNav .ant-menu-item{
+    text-indent: 12px;
+}
+.header.ant-dropdown ,.header .ant-dropdown-link{
+    text-align: center;
+    color: #ddd;
+}
+.header .ant-dropdown-link:hover{
+    color: #fff;
+}
+.userDropdown .ant-menu-sub{
+    margin-top:0px!important;
+    background: #000!important;
+    border: 0!important;
+    border-radius: 0!important;
+}
+.userDropdown  .ant-menu-item:hover{
+    background-color: #2E3847!important;
+    color: #fff!important;
+}
+.header .ant-menu-item{
+    font-size: 14px!important;
+    color: #ddd!important;
+}
+.userDropdown{
+    font-size: 14px!important;
+}
+.userDropdown .ant-menu-item-divider{
+    width: 70%;
+    margin:2px auto!important;
+    border-bottom:1px solid #636363;
+}
+.userDropdown .ant-menu-item{
+    text-align: center!important;
+}
+.header .iconfont{
+    position: absolute;
+    top: 1px;
+    left:4px;
+}
+/*left*/
+.Lefter .ant-menu-item-selected{
+ background: #d5e2ef!important;
+}
+.Lefter .ant-menu{
+    padding-top:30px;
+}
+.Lefter .ant-menu>li{
+    font-size:14px!important;
+}
+/*table*/
+.ant-table-body>table{
+    font-size:14px!important;
+}
+.ant-table-body>table th{
+    background-color: #f6f8fa!important;
+    border-top:1px solid #d0d5de!important;
+    border-bottom:1px solid #d0d5de!important;
+}
+.ant-table-body>table a{
+    color: #69b2d9;
+}
+.ant-table-body>table>thead th>span{
+    border-left:1px solid #d0d5de!important;
+    text-indent: 12px!important;
+    padding-left:10px;
+}
+.ant-table-body>table .ant-table-selection-column>span{
+    border: 0 !important;
+    padding:0!important;
+    text-indent: 0!important;
+}
+.ant-table-body>table .ant-table-selection-column{
+    text-indent: 0!important;
+}
+.ant-table-body>table>tbody>tr>td{
+    text-indent:12px;
+}
+/*修改End*/
+/*左侧*/
+.Lefter{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width:240px;
+    z-index:9;
+    padding-top:46px;
+    background-color: #edf4f5!important;
+}
+.Lefter>.leftBar{
+    width:100%;
+    height:100%;
+    background-color: transparent!important;
+}
+.moudleTitle{
+    font-weight: 500;
+    color: #000;
+    margin:0 22px;
+    width:150px;
+    padding:10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.collapseBtn{
+    position: absolute;
+    top: 60px;
+    left: 98%;
+    margin-left: -19px;
+    z-index: 1000;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-right: 0;
+    padding: 3px 1px 1px 1px;
+    cursor: pointer;
+}
+.collapseBtnInverse{
+    position: absolute;
+    top: 60px;
+    left: 100%;
+    z-index: 1000;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-left: 0;
+    padding: 3px 1px 1px 1px;
+    cursor: pointer;
+}
+/*content*/
+.index_content{
+    position: absolute;
+    top:46px;
+    left:0;
+    width:100%;
+}
+.content{
+    margin-left:240px;
+    padding:76px 30px 30px 30px;
+}
+/*通用样式*/
+h3{
+    font-weight: 600!important;
+}
+.floatR{
+    float: right!important;
+}
+.floatL{
+    float: left !important;;
+}
+.rml5{
+    margin-left:5px!important;
+}
+.rml10{
+    margin-left:10px!important;
+}
+.rmb15{
+    margin-bottom:15px!important;;
+}
+.rmb20{
+    margin-bottom:20px!important;;
+}
+.rmb30{
+    margin-bottom:30px!important;
+}
+.rml15{
+    margin-left:15px!important;;
+}
+.rml30{
+    margin-left:30px!important;
+}
+.rml50{
+    margin-left:50px!important;
+}
+.rmr30{
+    margin-right:30px!important;
+}
+.rmr15{
+    margin-right:15px!important;
+}
+.rmr5{
+    margin-right:5px!important;
+}
+.rp60{
+    padding:60px!important;
+}
+.rmt80{
+    margin-top:80px!important;
+}
+.rmt50{
+    margin-top: 50px!important;
+}
+.rmt70{
+    margin-top: 70px!important;
+}
+.rmt30{
+    margin-top:30px!important;
+}
+.rmt15{
+    margin-top:15px!important;
+}
+.rpt30{
+    padding-top:30px!important;
+}
+.rp30{
+    padding:30px!important;
+}
+.rfl{
+    float: left!important;
+}
+.blueBtn{
+    background-color: #399bcf!important;
+}
+.grayBtn{
+    background-color: #d7d7d7!important;
+}
+.rBorderB{
+    border-bottom:1px solid #dddddd;
+}
+.topIconRepair{
+    position:relative;
+    display:block;
+    height:44px;
+    width:60px;
+    text-align: center;
+}
+.hide{
+    display: none!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-right{
+    text-align: right!important;
+}
+.text-left{
+    text-align: left!important;
+}
+.rPositionR{
+    position: relative!important;
+}
+.rPositionA{
+    position: absolute!important;
+}
+.rPositionF{
+    position: fixed!important;
+}
+/*登陆页*/
+.signBg{
+    width: 100%;
+    width: 100%;
+    background: url('../image/login-bg.jpg') no-repeat center top;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.signFormBox{
+    margin-top:10%;
+}
+.sign-logo{display: block;width:172px;height:50px;margin:0 auto;margin-bottom: 40px;background: url("../image/logo.png") no-repeat;background-size: 100% 100%;}
+.signBtn{
+
+}
+.signFormBox .signBtn {
+    border:1px solid  #ccc!important;
+    background-color:#fff!important;
+    color:#333!important;
+}
+.signFormBox .signBtn:active{
+    background:none!important;
+    border:1px solid #1993dc!important;
+    color:#1993dc!important;
+}
+/*index页面样式*/
+.rowGroup{
+    min-height:200px!important;
+    width:94%;
+    margin:20px auto !important;
+    background-color: #fff!important;
+    box-shadow: #ddd 0px 0px 20px;
+    padding:20px 30px;
+}
+.rowGroup h3{
+    margin:10px 20px 30px 0px;
+    width: 100%;
+}
+.rowEle{
+    width:94%;
+    margin:20px auto !important;
+}
+.productBox{
+    background-color:#edf4f5;
+    height: 140px;
+    width:100%;
+    margin-bottom:20px;
+    cursor: pointer;
+    border:1px solid #eee;
+}
+.productBox:hover{
+    border:1px solid #ddd;
+    box-shadow: 0 0 10px 3px #ddd;
+}
+.productBox>div{
+    height:40%;
+    margin-top: 42px;
+    width:auto;
+}
+.productBox>div>span{
+    position: relative;
+    top:11px;
+}
+.productBox>div>span>i{
+    font-size:23px;
+}
+.productBox>.proLeftBox{
+    width:30%;
+    border-right:1px solid #ddd ;
+    text-align: center;
+}
+.productBox>.proRightBox{
+    width:30%;
+    text-align: center;
+}
+.productBox>.proRightBox>span{
+    position: relative;
+    top:15px;
+    left:10px;
+    font-size:18px;
+}
+.todoBox{
+    margin-bottom:15px;
+    border-bottom:1px solid #eee;
+    padding:10px 0;
+    cursor: pointer;
+}
+.todoBox:hover{
+    color: #111;
+}
+/*ttt 20170419*/
+.ant-btn.ant-btn-primary{
+    background-color: #009ace;
+    color: #fff;
+}
+.ant-btn.ant-btn-primary:hover,.ant-btn.ant-btn-primary:focus{
+    background-color: #26acda;
+    border-color: #26acda;
+    color: #fff;
+}

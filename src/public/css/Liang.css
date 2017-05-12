@@ -1,0 +1,255 @@
+.analysisBox .fetchInput{
+    height:30px;
+    margin-right:30px;
+}
+.analysisBox .showTotal{
+    margin-top: -50px;
+    margin-left:10px;
+}
+.analysisBox .ant-table-content{
+    min-height:650px;
+    border-bottom:1px solid #cccccc;
+}
+.addCusStrategy .ant-table-content{
+    min-height:0!important;
+    border-bottom:none!important;
+}
+.addCusStrategy .ant-table-body>table>thead th>span{
+    border-left:0!important;
+}
+.addCusStrategy .ant-table-body>table>thead th{
+    background: #fff!important;
+    border-top:0!important;
+    padding:8px!important;
+}
+.addCusStrategy .ant-table-tbody>tr>td{
+    padding:8px!important;
+}
+.analysisBox .ant-modal-content{
+    border-radius: 0;
+}
+.analysisBox .ant-modal-footer{
+    background: #f6f8fa;
+}
+.analysisBox .ant-modal-body{
+    max-height: 400px;
+    overflow-x: hidden;
+}
+.analysisBox .ant-modal-body>p,.analysisBox .ant-modal-body>div>p{
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size:16px;
+}
+.analysisBox .ant-modal-body>.ant-row{
+    text-align: center;
+}
+.analysisBox .ant-modal-body .ant-checkbox-wrapper{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+.ant-tooltip-inner{
+    max-width:none!important;
+}
+.analysisBox .alertInfo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    top:66px;
+    z-index: 8;
+}
+.analysisBox .alertInfoTitle>div>a{
+    border-right: 1px solid rgb(221, 221, 221);
+    padding: 0 10px;
+    line-height: 30px;
+}
+.analysisBox .alertInfoContent{
+    font-size:16px;
+    font-weight:500;
+    margin-top: 60px;
+}
+
+.analysisBox .blueBtn[disabled]{
+    background-color: #f7f7f7!important;
+}
+.analysisBox .noticeText{
+    font-size: 14px!important;
+    line-height: 20px!important;
+    min-height: 30px!important;
+    color:#999;
+    margin-top: 15px;
+}
+.analysisBox .ant-modal-body>.ant-row .ant-form-explain{
+    text-align: left!important;
+}
+.analysisBox .infoTitle{
+    width:300px;
+}
+.analysisBox .infoTitle>.backTopBtn{
+    float: left;
+    display: block;
+    height: 30px;
+    line-height:24px;
+}
+.analysisBox .infoTitle .infoTitleText{
+    border-left:#ddd solid 1px;
+    float: left;
+    text-indent: 12px;
+    margin-left: 12px;
+}
+.analysisBox .infoContent{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding-top: 40px;
+    width: 90%;
+    margin: 16px auto;
+    min-height: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.analysisBox .steps-action {
+    width:90%;
+    margin:24px auto;
+}
+.analysisBox .infoStep{
+    width:90%;
+    margin:0 auto;
+}
+.analysisBox .infoContent .ant-form-item{
+    margin-bottom:15px!important;
+}
+.analysisBox .ant-input{
+    -webkit-border-radius:0!important;
+    -moz-border-radius:0!important;
+    border-radius:0!important;
+}
+.analysisBox .ant-row-flex{
+    margin-bottom:15px;
+}
+.analysisBox .ant-select-selection{
+    -webkit-border-radius:0!important;
+    -moz-border-radius:0!important;
+    border-radius:0!important;
+}
+.analysisBox  .ant-transfer{
+    width: 845px;
+    margin: 0 auto;
+}
+.analysisBox  .transferTitle{
+    height:10%;
+    width:100%;
+    background:#f6f8fa;
+}
+.analysisBox  .transferTitle span{
+    display: block;
+    float: left;
+    width:33%;
+    height:100%;
+    line-height:32px;
+    text-align: center;
+}
+.analysisBox .custom-item span{
+    display: inline-block;
+    width: 33%;
+    text-indent: 6px;
+}
+.analysisBox  .ant-transfer-list-content{
+    height:90%!important;
+}
+.analysisBox .filterType{
+    position: relative;
+    padding-left: 20px;
+}
+.analysisBox .filterBox{
+    width: 120px;
+    position: absolute;
+    top: 27px;
+    left: 23px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.analysisBox .filterBox p{
+    cursor: pointer;
+    text-align: left;
+    text-indent:14px;
+}
+.analysisBox .filterBox p:hover{
+    background: #399bcf;
+    color: #fff;
+}
+.analysisBox .rightTransfer .hide{
+    display: inline!important;
+}
+.analysisBox .ant-pagination-options .ant-select-selection{
+    -webkit-border-radius:4px!important;
+    -moz-border-radius:4px!important;;
+    border-radius:4px!important;;
+}
+.transferModal{
+    width:880px!important;
+}
+.transferModal .ant-transfer-list-content{
+    margin-top:8%;
+}
+.transferModal .transferTitle{
+    position: absolute;
+    width: 390px;
+    top: 66px;
+    left: 5px;
+    height: 34px;
+}
+.transferModal .transferTitleRight{
+    left: 450px;
+}
+.transferModal .filterBox{
+    top: 34px;
+}
+.analysisBox .ant-modal-body .ant-form-item{
+    margin-bottom:0!important;
+}
+.analysisBox .ant-tabs-tab{
+    padding: 12px 25px 14px!important;
+    margin-right:8px!important;
+}
+.analysisBox .ant-tabs-tab-active{
+    padding-bottom:17px;
+}
+.analysisBox .ant-tabs-nav-container{
+    height:44px!important;
+}
+.analysisBox .addCusStrategy{
+    padding-top:30px !important;
+    padding-bottom:50px !important;
+}
+.analysisBox .addCusStrategy .ant-transfer-list-content{
+    height:100%!important;
+}
+.analysisBox .ant-tabs-vertical .ant-tabs-nav-container{
+    height:auto!important;
+}
+.analysisBox .ant-tabs-vertical .ant-tabs-tab{
+    padding: 12px 25px 14px!important;
+    margin-right:0px!important;
+    border-radius: 0!important;
+    margin-bottom:0px!important;
+}
+.analysisBox .ant-tabs-vertical .ant-tabs-tab-active{
+    padding-bottom:17px;
+    border-left: 4px solid #1b95e2!important;
+}
+.analysisBox .ant-tabs-vertical .ant-tabs-tab-active .authorityDel{
+    visibility:visible!important;
+}
+.analysisBox .ant-tabs-vertical .ant-tabs-content{
+    border: 1px solid #e9e9e9!important;
+    min-height: 600px!important;
+}
+.analysisBox .ant-popover-inner-content{
+    padding:0!important;
+    width: 240px;
+}

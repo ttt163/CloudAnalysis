@@ -1,0 +1,63 @@
+.analysisBox .fetchInput{
+    height:30px;
+    margin-right:30px;
+}
+.analysisBox .showTotal{
+    margin-top: -50px;
+    margin-left:10px;
+}
+.analysisBox .ant-table-content{
+    min-height:650px;
+    border-bottom:1px solid #cccccc;
+}
+.analysisBox .ant-modal-content{
+    border-radius: 0;
+}
+.analysisBox .ant-modal-footer{
+    background: #f6f8fa;
+}
+.analysisBox .ant-modal-body{
+    max-height: 400px;
+    overflow-x: hidden;
+}
+.analysisBox .ant-modal-body>p{
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size:16px;
+}
+.analysisBox .ant-modal-body>.ant-row{
+    text-align: center;
+}
+.analysisBox .ant-modal-body .ant-checkbox-wrapper{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+}
+.ant-tooltip-inner{
+    max-width:none!important;
+}
+.analysisBox .alertInfo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    left: 0;
+    top:66px;
+    z-index: 8;
+}
+.analysisBox .alertInfoTitle>div>a{
+    border-right: 1px solid rgb(221, 221, 221);
+    padding: 0 10px;
+    line-height: 30px;
+}
+.analysisBox .alertInfoContent{
+    font-size:16px;
+    font-weight:500;
+    margin-top: 60px;
+}
+
+.analysisBox .blueBtn[disabled]{
+    background-color: #f7f7f7!important;
+}
